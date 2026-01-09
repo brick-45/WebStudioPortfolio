@@ -93,7 +93,9 @@ a {
     list-style: none;
 }
 
-
+.programs-object:hover{
+    box-shadow: 1px 5px 15px #afafaf;
+}
 
 
 
@@ -151,4 +153,9 @@ footer a {
     border: none;
     border-radius: 5px;
     padding: 4px;
+}
+
+.footerSocialMedia:hover .footerIconBackground {
+    fill: #2196F3;
+    fill-opacity: 1;
 }
